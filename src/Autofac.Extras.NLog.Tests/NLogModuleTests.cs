@@ -1,4 +1,5 @@
 ﻿using Common.Testing.NUnit;
+
 using NUnit.Framework;
 
 namespace Autofac.Extras.NLog.Tests
