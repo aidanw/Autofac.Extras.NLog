@@ -1,26 +1,23 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>D:\DropBox\foam\Utils\Nlog\src\Autofac.Extras.NLog\bin\Release\netcoreapp2.0\Autofac.Extras.NLog.dll</id>
+    <id>Autofac.Extras.NLog.core2.0</id>
     <version>0.1.0</version>
     <authors>ziyasal, Aidan</authors>
     <owners>ziyasal</owners>
     <licenseUrl>https://raw.githubusercontent.com/ziyasal/Autofac.Extras.NLog/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/aidanw/Autofac.Extras.NLog</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Autofac Module that integrating Autofac and NLog, it supports both constructor and property injection.</description>
+    <description>Autofac Module that integrating Autofac and NLog, it supports both constructor and property injection. Now for core 2.0</description>
     <releaseNotes>Updated project files etc to Core 2.0.</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>NLog, log, Logger, Autofac, logging, ILogger</tags>
+    <tags>NLog, log, Logger, Autofac, logging, ILogger, core 2.0</tags>
     <dependencies>      
-	  <dependency id="Autofac" Version="4.8.0" />
-	  <dependency id="AutoFixture" Version="4.2.1" />
-	  <dependency id="FluentAssertions" Version="5.3.0" />
-	  <dependency id="Microsoft.NET.Test.Sdk" Version="15.7.0" />
-	  <dependency id="Moq" Version="4.8.2" />
-	  <dependency id="NLog" Version="4.5.3" />
-	  <dependency id="NUnit" Version="3.10.1" />
-	  <dependency id="NUnit3TestAdapter" Version="3.10.0" />	  
-    </dependencies>
+	  <dependency id="Autofac" version="4.8.0" />
+	  <dependency id="NLog" version="4.5.3" /> 
+    </dependencies>	
   </metadata>
+  <files>
+	  <file src="src\Autofac.Extras.NLog\bin\Release\netcoreapp2.0\*.*" target="lib\netstandard2.0" />
+   </files>
 </package>
